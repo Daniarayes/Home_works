@@ -3,15 +3,10 @@
  * Print only the number 12.50 as a decimal.
  */
 
-void main(){
+void main() {
+  String txt = 'EGP 12.50';
 
-String txt='EGP 12.50';
+  double value = double.parse(txt.substring(4, 9));
 
-double value=double.parse(txt.split(' ')[1]);
-
-
-print('The value :$value');
-
-
-
+  print('The value :$value');
 }

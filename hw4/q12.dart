@@ -3,9 +3,9 @@
  *print (guest). Otherwise, print the username.
  */
 void main(){
-  String? username;
+  String? username='';
 
-  if (username ==null) {
+  if (username.isEmpty) {
     print('guset');
 
     

@@ -10,6 +10,8 @@ void main(){
 
   for (var name in names) {
     counts[name] = (counts[name] ?? 0) + 1;
+
+    
   }
 
 
@@ -20,7 +22,7 @@ void main(){
   });
 
 
-    print(counts);
+  
 
 
 
